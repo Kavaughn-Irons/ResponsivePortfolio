@@ -1,0 +1,112 @@
+html{
+    background-color: gray;
+}
+
+.fullPage{
+    height: 100%;
+}
+
+.Body{
+    
+    background-color: white;
+    height: 400px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.bodyContact{
+    height: 500px;
+}
+.Picture{
+    background-color: white;
+    
+}
+a{
+    color: black;
+}
+body{
+    background-color: gray;
+    height: 600px;
+    
+}
+.aboutMeImage{
+    width: 100%;
+}
+footer{
+
+color: white;
+ margin-top: 20px!important;    
+ background-color: #666666;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #notNeeded{
+    display: none;
+    }
+    #notNeededTwo{
+    display: none;
+    }
+    .Body{
+    
+    background-color: white;
+    height: 400px;
+    margin-top: 80px;
+} 
+     .bodyContact{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+ .Body{
+    
+    background-color: white;
+    height: 250px;
+    margin-top: 80px;
+    font-size: 20px;
+} 
+    .bodyContact{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+ .Body{
+    
+    background-color: white;
+    height: 700px;
+    margin-top: 150px;
+    font-size: 15px;
+} 
+
+     .bodyContact{
+        height: 400px;
+    }
+
+    body{
+        700px;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+ .Body{
+    
+    background-color: white;
+    height: 600px;
+    margin-top: 150px;
+    font-size: 15px;
+} 
+    
+     .bodyContact{
+        height: 450px;
+    }
+    
+    body{
+        height: 1000px;
+    }
+   
+}
+
